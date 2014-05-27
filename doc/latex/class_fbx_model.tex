@@ -1,0 +1,117 @@
+\hypertarget{class_fbx_model}{\section{Fbx\-Model Class Reference}
+\label{class_fbx_model}\index{Fbx\-Model@{Fbx\-Model}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fbx_model_af59fde217d097494d1d8025fd417c4df}{{\bfseries Fbx\-Model} (\hyperlink{structgdl_1_1_s_fbx_file_datas}{gdl\-::\-S\-Fbx\-File\-Datas} const \&datas)}\label{class_fbx_model_af59fde217d097494d1d8025fd417c4df}
+
+\item 
+\hypertarget{class_fbx_model_a99dc5358193dde439e9ca71c9e13f99c}{Fbx\-Scene $\ast$ {\bfseries Get\-Scene} () const }\label{class_fbx_model_a99dc5358193dde439e9ca71c9e13f99c}
+
+\item 
+\hypertarget{class_fbx_model_aa3705619e47019dc6d45291c92bb3d13}{void {\bfseries Load\-File\-Datas} ()}\label{class_fbx_model_aa3705619e47019dc6d45291c92bb3d13}
+
+\item 
+\hypertarget{class_fbx_model_a3f5e2a7624089d8824615375935c127f}{const Fbx\-Time {\bfseries Get\-Frame\-Time} () const }\label{class_fbx_model_a3f5e2a7624089d8824615375935c127f}
+
+\item 
+\hypertarget{class_fbx_model_a205eb9a9ffa9eb9730e1b22337c7ce6d}{bool {\bfseries On\-Display} (glm\-::mat4 const \&transform, \hyperlink{classgdl_1_1_a_shader}{gdl\-::\-A\-Shader} $\ast$shader)}\label{class_fbx_model_a205eb9a9ffa9eb9730e1b22337c7ce6d}
+
+\item 
+\hypertarget{class_fbx_model_ac69b6f59ae8de1023b693a385828b6ce}{void {\bfseries On\-Timer\-Click} (bool loop)}\label{class_fbx_model_ac69b6f59ae8de1023b693a385828b6ce}
+
+\item 
+\hypertarget{class_fbx_model_a86229472e2a025bc80b6c96e7abca012}{const Fbx\-Array$<$ Fbx\-String $\ast$ $>$ \& {\bfseries Get\-Anim\-Stack\-Name\-Array} () const }\label{class_fbx_model_a86229472e2a025bc80b6c96e7abca012}
+
+\item 
+\hypertarget{class_fbx_model_a0d06f60772921b3024ea7e4627b08769}{const Fbx\-Array$<$ Fbx\-Pose $\ast$ $>$ \& {\bfseries Get\-Pose\-Array} () const }\label{class_fbx_model_a0d06f60772921b3024ea7e4627b08769}
+
+\item 
+\hypertarget{class_fbx_model_aff62ea1c1862ff836b8e64067ad43e6e}{bool {\bfseries Set\-Current\-Anim\-Stack} (int p\-Index)}\label{class_fbx_model_aff62ea1c1862ff836b8e64067ad43e6e}
+
+\item 
+\hypertarget{class_fbx_model_af578030bf48a40bed126422556dc58f8}{bool {\bfseries Set\-Current\-Pose\-Index} (int p\-Pose\-Index)}\label{class_fbx_model_af578030bf48a40bed126422556dc58f8}
+
+\item 
+\hypertarget{class_fbx_model_aceea77fae21327e4e8a722c37afbf183}{void {\bfseries Set\-Pause} (bool p\-Pause)}\label{class_fbx_model_aceea77fae21327e4e8a722c37afbf183}
+
+\item 
+\hypertarget{class_fbx_model_acde12b8338aab95fae10e46a8a99d53e}{bool {\bfseries Get\-Pause} () const }\label{class_fbx_model_acde12b8338aab95fae10e46a8a99d53e}
+
+\item 
+\hypertarget{class_fbx_model_adfb248604a1f2f72d6e19b3dd85bbb4f}{Fbx\-Long\-Long {\bfseries get\-Animation\-Duration} (int stack)}\label{class_fbx_model_adfb248604a1f2f72d6e19b3dd85bbb4f}
+
+\item 
+\hypertarget{class_fbx_model_a423354d364254426861f03f9c6409e57}{bool {\bfseries animation\-Exist} (int stack) const }\label{class_fbx_model_a423354d364254426861f03f9c6409e57}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fbx_model_a83b51e49ba5f713081826f4796f0d1df}{static void {\bfseries Update\-Animation\-Frame} (void $\ast$params)}\label{class_fbx_model_a83b51e49ba5f713081826f4796f0d1df}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fbx_model_a8e41cabb48a665daa09efffca33e9a61}{Fbx\-Time {\bfseries m\-Frame\-Time}}\label{class_fbx_model_a8e41cabb48a665daa09efffca33e9a61}
+
+\item 
+\hypertarget{class_fbx_model_a3779a8813da990cbb4a4cfccb8ab9d73}{Fbx\-Time {\bfseries m\-Start}}\label{class_fbx_model_a3779a8813da990cbb4a4cfccb8ab9d73}
+
+\item 
+\hypertarget{class_fbx_model_abb3fa1c071403455f870764fef33f08f}{Fbx\-Time {\bfseries m\-Stop}}\label{class_fbx_model_abb3fa1c071403455f870764fef33f08f}
+
+\item 
+\hypertarget{class_fbx_model_a883ddae7b818a65a318c227db224347a}{Fbx\-Time {\bfseries m\-Current\-Time}}\label{class_fbx_model_a883ddae7b818a65a318c227db224347a}
+
+\item 
+\hypertarget{class_fbx_model_a17000fb48a517ed97c456ade83c7fd02}{Fbx\-Time {\bfseries m\-Cache\-\_\-\-Start}}\label{class_fbx_model_a17000fb48a517ed97c456ade83c7fd02}
+
+\item 
+\hypertarget{class_fbx_model_ae912dcb0197b4e3bc2ad06e403732a54}{Fbx\-Time {\bfseries m\-Cache\-\_\-\-Stop}}\label{class_fbx_model_ae912dcb0197b4e3bc2ad06e403732a54}
+
+\item 
+\hypertarget{class_fbx_model_a43e9f2b8ca30d6876fd51a86d91a567f}{bool {\bfseries m\-Loop}}\label{class_fbx_model_a43e9f2b8ca30d6876fd51a86d91a567f}
+
+\item 
+\hypertarget{class_fbx_model_a9c974eba7806261eff002906a70edd90}{Fbx\-Anim\-Layer $\ast$ {\bfseries m\-Current\-Anim\-Layer}}\label{class_fbx_model_a9c974eba7806261eff002906a70edd90}
+
+\item 
+\hypertarget{class_fbx_model_aaf4493093038baf5031a6148848f622e}{int {\bfseries m\-Pose\-Index}}\label{class_fbx_model_aaf4493093038baf5031a6148848f622e}
+
+\item 
+\hypertarget{class_fbx_model_a37621a3a729fb1555c5ab75f3bac0549}{tthread\-::mutex {\bfseries m\-Next\-Frame\-Ready\-Mutex}}\label{class_fbx_model_a37621a3a729fb1555c5ab75f3bac0549}
+
+\item 
+\hypertarget{class_fbx_model_a2eaeed87ceba4d683f92bd969c05fd07}{tthread\-::condition\-\_\-variable {\bfseries m\-Next\-Frame\-Ready\-Cond}}\label{class_fbx_model_a2eaeed87ceba4d683f92bd969c05fd07}
+
+\item 
+\hypertarget{class_fbx_model_a677a0e4b4629499c817856d7c5ba35b5}{bool {\bfseries m\-Next\-Frame\-Ready}}\label{class_fbx_model_a677a0e4b4629499c817856d7c5ba35b5}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_fbx_model_a2630d48d8d3d8c90d52edb14a141e47c}{static tthread\-::thread {\bfseries Fbx\-Thread}}\label{class_fbx_model_a2630d48d8d3d8c90d52edb14a141e47c}
+
+\item 
+\hypertarget{class_fbx_model_ab776e342215caba1e79a8f938d436fd1}{static tthread\-::mutex {\bfseries Models\-To\-Update\-Mutex}}\label{class_fbx_model_ab776e342215caba1e79a8f938d436fd1}
+
+\item 
+\hypertarget{class_fbx_model_a5faad208701b1b50224cab0d31b5a772}{static tthread\-::mutex {\bfseries Is\-Using\-Fbx}}\label{class_fbx_model_a5faad208701b1b50224cab0d31b5a772}
+
+\item 
+\hypertarget{class_fbx_model_a4db39a0e17d87701e99c31fed4877c73}{static tthread\-::condition\-\_\-variable {\bfseries Models\-To\-Update\-Cond}}\label{class_fbx_model_a4db39a0e17d87701e99c31fed4877c73}
+
+\item 
+\hypertarget{class_fbx_model_ac3eb6500c88bc880f605cf45053dac6b}{static std\-::list$<$ \hyperlink{class_fbx_model}{Fbx\-Model} $\ast$ $>$ {\bfseries Models\-To\-Update}}\label{class_fbx_model_ac3eb6500c88bc880f605cf45053dac6b}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+includes/Fbx\-Model.\-hh\item 
+sources/Fbx\-Model.\-cpp\end{DoxyCompactItemize}

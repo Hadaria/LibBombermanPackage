@@ -10,8 +10,7 @@ var indexSectionsWithContent =
   0: "_abcdfgilmprstu",
   1: "abcgimst",
   2: "_abcdfgilprsu",
-  3: "_",
-  4: "s"
+  3: "_"
 };
 
 var indexSectionNames =
@@ -19,8 +18,7 @@ var indexSectionNames =
   0: "all",
   1: "classes",
   2: "functions",
-  3: "variables",
-  4: "enums"
+  3: "variables"
 };
 
 function convertToId(search)

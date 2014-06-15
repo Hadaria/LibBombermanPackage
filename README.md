@@ -18,3 +18,5 @@ Last Change Log:
 -Possibilité de récupérer la durée d'une frame d'animation
 
 -Possibilité de passer des flags SDL lors de la création du contexte
+
+-Accès concurentiels à la lib FBX corrigés
